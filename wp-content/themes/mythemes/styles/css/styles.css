@@ -1,0 +1,86 @@
+
+/* Header Styles*/
+.my-main-menu{
+    width: 90%;
+    margin: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+   /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.custom-logo{
+    width: 4rem;
+}
+
+.my-main-menu .site-title{
+    display: inline-flex;
+    color: white;
+}
+
+.my-navbar{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.my-navbar li{
+    list-style: none;
+}
+
+.my-navbar li a{
+    color: white;
+}
+
+/* General Styles*/
+
+body .relative-container .elementor-element{
+    position: relative !important;
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+.background-element .elementor-widget{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.background-element .elementor-widget img{
+    height: 100%;
+    max-width: unset;
+    object-fit: cover;
+}
+
+.content-container .elementor-element{
+    height: 100%;
+    width: 100%;
+}
+
+.slicknav_menu{
+    display: none;
+}
+
+@media screen and (max-width: 40em) {
+        #main-menu {
+            display: none;
+        }
+
+        .slicknav_menu{
+            display: block;
+        }
+}
