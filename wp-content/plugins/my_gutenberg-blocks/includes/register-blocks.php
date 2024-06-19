@@ -1,5 +1,5 @@
 <?php
-
+/*
 function my_gutenberg_register_blocks(){
     $asset_file = include (plugin_dir_path(__FILE__) ."../build/index.asset.php");
 
@@ -10,4 +10,4 @@ function my_gutenberg_register_blocks(){
         $asset_file['version']
     );
     
-}
+}*/
