@@ -1,0 +1,8 @@
+.pokeapi0container .banner{
+    width: 100%;
+    aspect-ratio: 16/4;
+    object-fit: cover;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}

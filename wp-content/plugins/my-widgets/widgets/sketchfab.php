@@ -37,7 +37,7 @@ add_action("elementor/init",function(){
                 "type"=> Controls_Manager::TEXT,
                 "default"=>"",
             ]);
-            $$this->end_controls_section();
+            $this->end_controls_section();
         }
         protected function render(){
             $settings= $this-> get_settings_for_display();
